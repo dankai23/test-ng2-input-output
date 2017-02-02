@@ -1,0 +1,19 @@
+﻿<div>
+ <h1>ng2 Input Output test</h1>
+
+
+ <h3>Doll assembling department(Parent)</h3>
+
+ <pre>  Parts quantity</pre>
+
+ <table>
+ <tr><td>  </td><td>　head　</td><td>　body　</td><td>　arm 　</td><td>　leg 　</td></tr>
+ <tr><td>  </td><td>{{head}}</td><td>{{body}}</td><td>{{arm}}</td><td>{{leg}}</td></tr>
+ </table>
+ <br>
+ <label>　　Assembable quantity:　{{ready_num}}</label>
+ <pre>--------------------------------</pre>
+
+ <head-comp [arm]="arm" [leg]="leg" (headClick)="headSetValue($event)" (bodyClick)="bodySetValue($event)"> </head-comp>
+ <arm-comp [head]="head" [body]="body" (armClick)="armSetValue($event)" (legClick)="legSetValue($event)"> </arm-comp>
+</div>

@@ -1,0 +1,16 @@
+﻿button {
+    font-size: 12pt;
+    margin-top: 1px;
+    margin-bottom: 1pt;
+/*
+    display: block;
+*/
+}
+input[type="text"] {
+    font-size: 12pt;
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+/*
+    display: block;
+*/
+}
