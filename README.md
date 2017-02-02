@@ -1,6 +1,7 @@
-#Test Angular2 Dart @Input @Output
+##Test Angular2 Dart @Input @Output
 
-## How to run
+How to run  
+
 1. step0
   * get dart SDK
   * get dartium
