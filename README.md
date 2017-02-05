@@ -12,5 +12,5 @@ How to run
   * set http://localhost:8080/ to browser
 4. step3
   * click **Send** buttons
-5. snapshot
-  * ![snapshot](./20170129-2.jpg)
+5. screenshot
+  * ![screenshot](./20170129-2.jpg)
