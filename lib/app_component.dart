@@ -1,4 +1,4 @@
-﻿import 'package:angular2/core.dart';
+import 'package:angular2/core.dart';
 import 'head_comp.dart';
 import 'arm_comp.dart';
 
@@ -40,7 +40,7 @@ class AppComponent {
   void makeReadyNum(){
     int i_min;
     int i_tmp;
-    
+
     i_min = int.parse(head);
 
     i_tmp = int.parse(body);
