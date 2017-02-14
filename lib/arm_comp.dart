@@ -21,13 +21,23 @@ class ArmComp {
   ArmComp();
 
   void arm_button(){
-    int.parse(arm, onError:(source) => arm = "00");
+  //  int.parse(arm, onError:(source) => arm = "00");
+    try {int.parse(arm);
+    } catch (err) {
+      arm = "00";
+    }
+
     armClick.emit(arm);
 //  print("head_button");
   }
 
   void leg_button(){
-    int.parse(leg, onError:(source) => leg = "00");
+//    int.parse(leg, onError:(source) => leg = "00");
+    try {int.parse(leg);
+    } catch (err) {
+      leg = "00";
+    }
+
     legClick.emit(leg);
 //  print("body_button");
   }
