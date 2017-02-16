@@ -22,22 +22,20 @@ class HeadComp {
 
   void head_button(){
 //    int.parse(head, onError:(source) => head = "00");
-      try {int.parse(head);
-      } catch (err) {
-        head = "00";
-      }
+    try {int.parse(head);
+    } catch (err) {
+      head = "00";
+    }
     headClick.emit(head);
-//  print("head_button");
   }
 
   void body_button(){
 //    int.parse(body, onError:(source) => body = "00");
-      try {int.parse(body);
-      } catch (err) {
-        body = "00";
-      }
+    try {int.parse(body);
+    } catch (err) {
+      body = "00";
+    }
     bodyClick.emit(body);
-//  print("body_button");
   }
 
 

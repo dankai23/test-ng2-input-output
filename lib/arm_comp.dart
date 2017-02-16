@@ -28,7 +28,6 @@ class ArmComp {
     }
 
     armClick.emit(arm);
-//  print("head_button");
   }
 
   void leg_button(){
@@ -39,7 +38,6 @@ class ArmComp {
     }
 
     legClick.emit(leg);
-//  print("body_button");
   }
 
 }
